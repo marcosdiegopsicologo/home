@@ -4,7 +4,7 @@ title: mdp-psiconterapia1 # Site settings
   3 email: marcosdiegopsicologo@outlook.com
   4 description: > # this means to ignore newlines until "baseurl:"
   5   Site sobre o profissional Marcos Diego de Almeida, psicólogo.
-  6 baseurl: "https://marcosdiegopsicologo.github.io/marcosdiego-psico1" # the subpath of your site, e.g. /blog/
+  6 baseurl: "" # the subpath of your site, e.g. /blog/
   7 url: "http://yourdomain.com" # the base hostname & protocol for your site
   8 twitter_username: jekyllrb
   9 github_username:  jekyll
