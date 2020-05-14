@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
+{% include /minutes-to-read.html %}
 
 
  <section>
      <div class="container">
         <header class="major">
             <h2>{{ page.title }}</h2>
-            {% include /minutes-to-read.html %}
                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         </header>
 
