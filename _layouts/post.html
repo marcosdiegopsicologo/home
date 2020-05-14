@@ -20,7 +20,10 @@ layout: default
             {% if page.next %}
             <a href="{{ page.next.url }}" class="float-right">Next post &rarr;</a> {% endif %}
         </footer>
-    {%- include minutes-to-read.html -%}
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+  
     </div>
 
 </section>
