@@ -6,6 +6,8 @@ layout: default
 
  <section>
      <div class="container">
+        <time>{{ page.date | date_to_string }}</time>
+        <span class="reading-time"> - {{ minutesText }}</span>
         <header class="major">
             <h2>{{ page.title }}</h2>
                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
