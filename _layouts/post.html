@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<!-- {%- include minutes-to-read.html -%} -->
+ {%- include minutes-to-read.html -%} 
  <section>
     <div class="container">
         <header class="major">
@@ -20,10 +20,8 @@ layout: default
             {% if page.next %}
             <a href="{{ page.next.url }}" class="float-right">Next post &rarr;</a> {% endif %}
         </footer>
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-  
+   {%- endif -%}
+
     </div>
 
 </section>
